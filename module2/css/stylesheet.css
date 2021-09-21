@@ -1,0 +1,145 @@
+
+header{
+margin-top: 30px;
+margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align:center;
+  font-family: sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+p{
+  clear: both;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+/**     box1      **/
+.sect-beef{
+  float: left;
+  background-color: #CCB8CD;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin: 3px;
+}
+
+.title-beef{
+  position: relative;
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 10px 40px;
+  background-color: #705D70;
+  color: white;
+
+}
+/**     box2     **/
+.sect-chicken{
+  float: left;
+  background-color: #DCB2CD;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin: 3px;
+
+}
+
+.title-chicken{
+  position: relative;
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 10px 40px;
+  background-color: #513848;
+  color: white;
+}
+
+/**        box3       **/
+.title-sushi{
+    position: relative;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 10px 40px;
+    background-color: #4B5482;
+    color: white;
+  }
+
+.sect-sushi{
+  float:left;
+  background-color: #B2B9DC;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin: 3px;
+
+}
+
+
+
+/** for desktop **/
+
+/********** Large devices only **********/
+@media (min-width: 992px){
+  .sect-beef {
+    float: left;
+    width: 32%;
+  }
+  .sect-chicken {
+    float: left;
+    width: 32%;
+  }
+  .sect-sushi {
+    width: 32%;
+  }
+}
+/********** for tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .sect-beef {
+    width: 49%;
+  }
+  .sect-chicken {
+    width: 49%;
+    float:right;
+    position: relative;
+  }
+  .sect-sushi {
+    position: relative;
+    clear: both;
+    width: 100%
+  }
+}
+
+/********** for phone devices only **********/
+@media (min-width: 0px) and (max-width: 767px)
+{
+  .sect-beef {
+    width: 100%;
+  }
+  .sect-chicken {
+    width: 100px%;
+    position: relative;
+  }
+  .sect-sushi {
+    position: relative;
+    clear: both;
+    width: 100%
+  }
+}
