@@ -2,10 +2,11 @@
 header{
 margin-top: 30px;
 margin-bottom: 30px;
-  font-size: 40px;
-  font-weight: bold;
+  font-size: 60px;
+  font-weight: bolder;
   text-align:center;
-  font-family: sans-serif;
+  font-family: 'Anton', sans-serif;
+  color: #4a6274;
 }
 
 *{
@@ -18,77 +19,89 @@ p{
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 10px;
-  font-size: 13px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  color:#black;
 }
 
 /**     box1      **/
 .sect-beef{
   float: left;
-  background-color: #CCB8CD;
+  background-color: #f9ddd2;
   border-style: solid;
   border-width: 1px;
   border-color: black;
   margin: 3px;
+  text-align: justify;
 }
 
 .title-beef{
   position: relative;
   float: right;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 30px;
+  font-weight: bolder;
   border-style: solid;
   border-width: 1px;
   border-color: black;
   padding: 10px 40px;
-  background-color: #705D70;
+  background-color: #4a6274;
   color: white;
+  font-family: 'Anton', sans-serif;
 
 }
 /**     box2     **/
 .sect-chicken{
   float: left;
-  background-color: #DCB2CD;
+  background-color: #d294af;
   border-style: solid;
   border-width: 1px;
   border-color: black;
   margin: 3px;
+  text-align: justify;
+  font-family: sans-serif;
 
 }
 
 .title-chicken{
   position: relative;
   float: right;
-  font-size: 25px;
+  font-size:30px;
   font-weight: bold;
   border-style: solid;
   border-width: 1px;
   border-color: black;
   padding: 10px 40px;
-  background-color: #513848;
+  background-color: #4a6274;
   color: white;
+  font-family: 'Anton', sans-serif;
 }
 
 /**        box3       **/
 .title-sushi{
     position: relative;
     float: right;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     border-style: solid;
     border-width: 1px;
     border-color: black;
     padding: 10px 40px;
-    background-color: #4B5482;
+    background-color: #4a6274;
     color: white;
+    font-family: 'Anton', sans-serif;
   }
 
 .sect-sushi{
   float:left;
-  background-color: #B2B9DC;
+  background-color: #79aeb2;
   border-style: solid;
   border-width: 1px;
   border-color: black;
   margin: 3px;
+  text-align: justify;
+  font-family: sans-serif;
 
 }
 
